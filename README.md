@@ -1,4 +1,4 @@
-![logo](https://github.com/jehianth/jbkons-web/assets/55863992/be833bcb-43b9-480a-bd64-0d898649e83d)
+![logo](https://github.com/jehianth/jbkons-web/assets/55863992/999e5b34-6dbc-4c88-b8df-06e304e54d3e)
 
 Architect & Engineering Consultant.
 
