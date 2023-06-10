@@ -1,4 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img width="300" alt="Logo Full" src="https://github.com/jehianth/jbkons-web/assets/55863992/bb9319fe-8382-4125-a1c7-160ac938a8ed">
+
+Architect & Engineering Consultant.
+
+## Tech Stack
+
+**Client:** NextJS, TailwindCSS, Tailblocks
+
+**Server:** -
+
+## Authors
+
+- [Jehian](https://www.github.com/jehianth)
+- [Hendra](https://github.com/HendraMaajid)
+- [Ageng](https://github.com/AgengPraba)
+- Amar
 
 ## Getting Started
 
