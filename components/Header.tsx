@@ -17,12 +17,12 @@ const Header = () => {
         { href: "#layanan", text: "Layanan" },
         { href: "#portofolio", text: "Portofolio" },
         { href: "#profil", text: "Profil" },
-        { href: "#tim", text: "Tim Kami" },
+        { href: "#tim", text: "Tim" },
         { href: "#ulasan", text: "Ulasan" },
         { href: "#kontak", text: "Kontak" },
     ];
     return (
-        <header className="sticky top-0 z-30 w-full bg-white shadow text-black text-sm p-3 md:px-20 flex flex-row">
+        <header className="sticky top-0 z-30 w-full bg-white shadow text-black text-sm p-3 md:px-auto flex flex-row">
             <div>
                 <Link href='/'>
                 <Image src='/logo-red.png' width={136} height={37} alt='Logo JBKons PT JOGLOMAS BRILIAN KONSULTAN'/>
