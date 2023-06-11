@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Hero = () => {
     return (
         <section id='hero' className='bg-bghero w-full lg:h-[60vh] text-white'>
-            <div className='translate-y-[525px] translate-x-10 lg:pl-40 lg:pt-24 lg:w-[814px]'>
+            <div className='translate-y-[525px] translate-x-10 lg:pl-40 lg:pt-24 w-[500px] lg:w-[814px]'>
                 <h1 className='text-5xl font-bold lg:font-extrabold lg:text-6xl lg:tracking-wide lg:leading-tight'>Desain Arsitektur Modern dengan Inovasi Lingkungan Terintegrasi</h1>
             </div>
             <div className='bg-bghero w-full -z-10 absolute inset-0 transform skew-y-[5deg] -translate-y-32'></div>
