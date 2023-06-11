@@ -1,4 +1,4 @@
-<img width="300" alt="Logo Full" src="https://github.com/jehianth/jbkons-web/assets/55863992/bb9319fe-8382-4125-a1c7-160ac938a8ed">
+![logo](https://github.com/jehianth/jbkons-web/assets/55863992/999e5b34-6dbc-4c88-b8df-06e304e54d3e)
 
 Architect & Engineering Consultant.
 
