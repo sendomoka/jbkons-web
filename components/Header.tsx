@@ -32,7 +32,7 @@ const Header = () => {
                 <ul className="flex">
                     {menus.map((menu, index) => (
                     <li key={index}>
-                        <Link href={menu.href} className="py-3 px-4 transition duration-300 hover:text-black hover:bg-zinc-100 rounded-sm">
+                        <Link href={menu.href} className="font- py-3 px-4 transition duration-300 hover:text-black hover:bg-zinc-100 rounded-sm">
                         {menu.text}
                         </Link>
                     </li>

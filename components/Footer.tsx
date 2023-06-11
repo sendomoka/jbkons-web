@@ -26,10 +26,10 @@ const Footer = () => {
                 </div>
             </div>
             <div className='mt-10 xl:ml-20 xl:mt-6 xl:w-[800px]'>
-                <p className='font-semibold text-2xl border-b-2 border-purple-700 w-fit mb-6'>KONTAK KAMI</p>
-                <p className='text-sm text-justify xl:text-start hover:text-purple-700 border-l-2 border-purple-700 pl-4 mb-3'>Alamat : Jalan Gerilya Gang II Nomor 26 Purwokerto, Kel. Tanjung, Kec. Purwokerto Selatan, Kab. Banyumas, Prov. Jawa Tengah 53144</p>
-                <p className='text-sm hover:text-purple-700 border-l-2 border-purple-700 pl-4 mb-3'>No. Telepon : (+62) 82225314338</p>
-                <p className='text-sm hover:text-purple-700 border-l-2 border-purple-700 pl-4 mb-3'>Email : pt.jbkons@gmail.com</p>
+                <p className='font-semibold text-2xl border-b-2 border-[#6366f1] w-fit mb-6'>KONTAK KAMI</p>
+                <p className='text-sm text-justify xl:text-start hover:text-[#6366f1] border-l-2 border-[#6366f1] pl-4 mb-3'>Alamat : Jalan Gerilya Gang II Nomor 26 Purwokerto, Kel. Tanjung, Kec. Purwokerto Selatan, Kab. Banyumas, Prov. Jawa Tengah 53144</p>
+                <p className='text-sm hover:text-[#6366f1] border-l-2 border-[#6366f1] pl-4 mb-3'>No. Telepon : (+62) 82225314338</p>
+                <p className='text-sm hover:text-[#6366f1] border-l-2 border-[#6366f1] pl-4 mb-3'>Email : pt.jbkons@gmail.com</p>
                 <p className='text-sm mt-10 text-zinc-400 text-center xl:text-start'>© 2023 PT. Joglomas Brilian Konsultan. All Rights Reserved.</p>
             </div>
         </footer>

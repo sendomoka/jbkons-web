@@ -18,6 +18,7 @@ module.exports = {
       colors: {
         'bgfooter': '#0f1c3e',
         'textfooter': '#f8feff',
+        'bghero': '#111e25',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
