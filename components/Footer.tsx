@@ -6,12 +6,12 @@ const Footer = () => {
     return (
         <footer id='kontak' className='bg-bgfooter w-full p-5 md:p-16 flex flex-col md:flex-row text-textfooter'>
             <div className='md:flex md:flex-row'>
-                <Image src='/harita.jpg' width={537} height={288} alt='Harita' className='pt-14 md:pt-0 md:h-[306px] md:w-[221px] md:object-none'/>
+                <Image src='/harita.jpg' width={537} height={288} alt='Harita' className='pt-14 mx-auto md:pt-0 md:h-[306px] md:w-[221px] md:object-none'/>
                 <div className='md:flex md:flex-col md:ml-10 md:w-[261px]'>
-                    <Image src='/logo-white.png' width={166} height={45.16} alt='Logo JBKons' className='ml-32 mt-10 mb-5 md:ml-12 md:mb-3 md:mt-6' />
+                    <Image src='/logo-white.png' width={166} height={45.16} alt='Logo JBKons' className='mx-auto mt-10 mb-5 md:ml-12 md:mb-3 md:mt-6' />
                     <p className='font-semibold text-center text-sm'>KONSULTAN PERENCANAAN DAN PENGAWASAN</p>
                     <p className='text-justify mt-6 text-sm text-zinc-400'>Percayakan desain bangunan pada JBKons, konsultan arsitektur modern dengan sentuhan alam yang brilian untuk hasil yang berkesan!</p>
-                    <div className='ml-20 md:ml-0 md:flex md:flex-row'>
+                    <div className='mx-auto md:ml-0 flex flex-row justify-center items-center'>
                         <Link href='https://www.instagram.com/jbkons.id/' target='_blank'>
                             <button className='mt-5 grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition duration-700 hover:scale-105'>
                                 <Image src='/ig.png' width={108} height={40} alt='Instagram JBKons' />
