@@ -44,7 +44,7 @@ Konsultasi Teknis YBDI</h2>
             </div>
             <div className='flex justify-center items-center mt-10'>
                 <a href="/COMPANY PROFILE JBKONS 2023-1-36.pdf" download>
-                    <button className='lg:inline-flex items-center group py-2 px-4 text-zinc-600 transition duration-700 hover:text-black border hover:border-black hover:bg-zinc-100 rounded-lg'>
+                    <button className='inline-flex items-center group py-2 px-4 text-zinc-600 transition duration-700 hover:text-black border hover:border-black hover:bg-zinc-100 rounded-lg'>
                         Cek Legalitas Perusahaan Kami
                         <Image src='/unduh-black-thick.png' width={18} height={18} alt='' className='ml-1 opacity-60 group-hover:opacity-100'/>
                     </button>
