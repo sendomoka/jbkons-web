@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer id='kontak' className='bg-bgfooter w-full p-5 md:p-16 flex flex-col md:flex-row text-textfooter'>
             <div className='md:flex md:flex-row'>
-                <Image src='/harita.jpg' width={537} height={288} alt='Harita' className='pt-14 mx-auto md:pt-0 md:h-[306px] md:w-[221px] md:object-none'/>
+                <Image src='/harita.jpg' width={537} height={288} alt='Harita' className='mx-auto md:pt-0 md:h-[306px] md:w-[221px] md:object-none'/>
                 <div className='md:flex md:flex-col md:ml-10 md:w-[261px]'>
                     <Image src='/logo-white.png' width={166} height={45.16} alt='Logo JBKons' className='mx-auto mt-10 mb-5 md:ml-auto md:mb-3 md:mt-6' />
                     <p className='font-semibold text-center text-sm'>KONSULTAN PERENCANAAN DAN PENGAWASAN</p>
