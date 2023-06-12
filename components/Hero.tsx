@@ -11,7 +11,7 @@ const Hero = () => {
             <button className='translate-y-[510px] translate-x-[360px] lg:translate-x-52 lg:translate-y-5 transition duration-500 hover:scale-110 sm:translate-y-[600px] sm:translate-x-[550px]'>
                 <Image src='/button_hero.png' width={150} height={150} alt='' draggable='false' />
             </button>
-            <Image src='/hero_img.png' width={720} height={10} alt='' className='ml-auto -translate-y-[420px] lg:-translate-y-[600px] -mb-40 sm:scale-75 sm:-translate-y-[450px] sm:translate-x-[90px]' draggable='false' />
+            <Image src='/hero_img.png' width={720} height={10} alt='' className='ml-auto -translate-y-[420px] lg:-translate-y-[600px] lg:-translate-x-0 -mb-40 lg:scale-100 sm:scale-75 sm:-translate-y-[450px] sm:translate-x-[90px]' draggable='false' />
         </section>
     )
 }
