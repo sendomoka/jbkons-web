@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import { Link } from 'lucide-react'
 
 const Layanan = () => {
     return (
@@ -15,8 +14,7 @@ const Layanan = () => {
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
                 <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
                 <Image src='/consulting.png' width={55} height={55} alt='' draggable='false' className='mx-auto mb-3'/>
-                <h2 className="title-font font-medium text-xl text-gray-900">Aktivitas Keinsinyuran dan
-Konsultasi Teknis YBDI</h2>
+                <h2 className="title-font font-medium text-xl text-gray-900">Aktivitas Keinsinyuran dan Konsultasi Teknis YBDI</h2>
                 <p className="leading-relaxed">Kode KBLI : 71102</p>
                 </div>
             </div>
