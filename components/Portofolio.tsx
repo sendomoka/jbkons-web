@@ -143,8 +143,7 @@ const Portofolio = () => {
                 Portofolio Proyek
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                Sebagai tim yang berpengalaman dan ahli dalam bidang arsitektur,
-                kami telah berhasil menghadirkan solusi desain yang inovatif dan
+                Kami telah berhasil menghadirkan solusi desain yang inovatif dan
                 fungsional untuk klien-klien kami. Beberapa proyek yang sudah
                 dikerjakan antara lain.
             </p>

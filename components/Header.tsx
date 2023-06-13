@@ -28,11 +28,11 @@ const Header = () => {
                 <Image src='/logo-red.png' width={161.19} height={32} alt='Logo JBKons PT JOGLOMAS BRILIAN KONSULTAN' className='lg:w-[136] lg:h-[37]' />
                 </Link>
             </div>            
-            <nav className="hidden lg:mr-auto lg:ml-4 lg:pt-2 lg:pl-3 lg:border-l lg:border-gray-400 flex-wrap lg:block items-center text-sm text-zinc-600 font-medium justify-center">
+            <nav className="hidden lg:mr-auto lg:ml-4 lg:pt-3 lg:pl-3 lg:border-l lg:border-gray-400 flex-wrap lg:block items-center text-[15px] text-zinc-600 font-medium justify-center">
                 <ul className="flex">
                     {menus.map((menu, index) => (
                     <li key={index}>
-                        <Link href={menu.href} className="font- py-3 px-4 transition duration-300 hover:text-black hover:bg-zinc-100 rounded-sm">
+                        <Link href={menu.href} className="py-3 px-4 transition duration-300 hover:text-black hover:bg-zinc-100 rounded-sm">
                         {menu.text}
                         </Link>
                     </li>
@@ -40,13 +40,13 @@ const Header = () => {
                 </ul>
             </nav>
             <a href="/COMPANY PROFILE JBKONS 2023-1-36.pdf" download>
-                <button className='hidden lg:inline-flex items-center group py-2 px-4 text-zinc-600 transition duration-700 hover:text-black border hover:border-black hover:bg-zinc-100 rounded-lg'>
+                <button className='hidden lg:inline-flex items-center group mt-1 py-2 px-4 text-zinc-600 transition duration-700 hover:text-black border hover:border-black hover:bg-zinc-100 rounded-lg'>
                     Unduh CP
                     <Image src='/unduh-black-thick.png' width={18} height={18} alt='' className='ml-1 opacity-60 group-hover:opacity-100'/>
                 </button>
             </a>
             <Link href='https://wa.me/6282225314338' target='_blank'>
-                <button className='hidden lg:inline-flex items-center group py-2 px-4 ml-3 transition duration-700 text-white hover:text-zinc-300 border border-zinc-900 hover:border-zinc-700 bg-zinc-900 hover:bg-zinc-700 rounded-lg'>
+                <button className='hidden lg:inline-flex items-center group mt-1 py-2 px-4 ml-3 transition duration-700 text-white hover:text-zinc-300 border border-zinc-900 hover:border-zinc-700 bg-zinc-900 hover:bg-zinc-700 rounded-lg'>
                     Mari Bangun Bersama
                     <Image src='/bangun.png' width={15} height={15} alt='' className='ml-2 opacity-100 group-hover:opacity-60'/>
                 </button>
