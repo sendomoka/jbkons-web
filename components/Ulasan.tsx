@@ -1,12 +1,12 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
-import Image from "next/image";
 
 const Ulasan = () => {
     const kliens = [
-        { image: "/Logo-UNSOED.png", name: "Universitas Jenderal Soedirman" },
-        { image: "/logo-esdm.png", name: "Kementrian ESDM" },
-        { image: "/logo-banyumas.jpg", name: "Dinas Pekerjaan Umum Banyumas" },
-        { image: "/logo-uin.png", name: "Universitas Islam Negeri Saifuddin Zuhri" },
+        { image: "https://i.ibb.co/VJqkSYy/Logo-UNSOED.png", name: "Universitas Jenderal Soedirman" },
+        { image: "https://i.ibb.co/8sYG2ZF/logo-esdm.png", name: "Kementrian ESDM" },
+        { image: "https://i.ibb.co/5rpTGtN/logo-banyumas.webp", name: "Dinas Pekerjaan Umum Banyumas" },
+        { image: "https://i.ibb.co/vjMnhvH/logo-uin.png", name: "Universitas Islam Negeri Saifuddin Zuhri" },
     ];
     return (
         <section id="ulasan" className="text-gray-600 body-font">
@@ -24,7 +24,7 @@ const Ulasan = () => {
                     {kliens.map((klien, index) => (
                         <div key={index} className="lg:mb-0 mb-6 p-4">
                             <div className="h-full text-center">
-                                <Image src={klien.image} width={150} height={150} alt='' draggable='false' className="mb-8 object-cover object-center inline-block" />
+                                <img src={klien.image} width={150} height={150} alt='' draggable='false' className="mb-8 object-cover object-center inline-block" />
                                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">{klien.name}</h2>
                             </div>
                         </div>

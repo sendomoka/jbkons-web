@@ -1,128 +1,128 @@
+/* eslint-disable @next/next/no-img-element */
 'use client'
 import React, { useState } from "react";
-import Image from "next/image";
 
 const Portofolio = () => {
     const cards = [
         {
-        img: "/p/farm_.png",
+        img: "https://i.ibb.co/CsmwVdv/farm.png",
         year: "2021",
         title: "Perencanaan EXFARM - Fakultas Peternakan Unsoed",
         place: "Karangwangkal - Purwokerto",
         },
         {
-        img: "/p/masterplanfisip.png",
+        img: "https://i.ibb.co/HB2kXdm/masterplanfisip.png",
         year: "2021",
         title: "Perencanaan Masterplan - FISIP Unsoed",
         place: "Grendeng, Purwokerto",
         },
         {
-        img: "/p/merapi.png",
+        img: "https://i.ibb.co/hYRVrpw/merapi.png",
         year: "2021",
         title:
             "Perencanaan Pengembangan Pos Pengamatan G. Merapi - PVMBG, Badan Geologi, Kementrian ESDM",
         place: "Kaliurang, Sleman, Daerah Istimewa Yogyakarta",
         },
         {
-        img: "/p/umkm.png",
+        img: "https://i.ibb.co/QNVKf5G/umkm.png",
         year: "2021",
         title:
             "Perencanaan Sentra Kuliner dan UMKM Banyumas - Dinas Pekerjaan Umum Kab. Banyumas",
         place: "Purwokerto, Banyumas, Jawa Tengah",
         },
         {
-        img: "/p/uin.png",
+        img: "https://i.ibb.co/y8Pk677/uin.png",
         year: "2021",
         title: "Perencanaan Gerbang Utama - UIN SAIZU Purwokerto",
         place: "Purwokerto, Banyumas, Jawa Tengah",
         },
         {
-        img: "/p/abdul.png",
+        img: "https://i.ibb.co/V3bpY9H/abdul.png",
         year: "2021",
         title:
             "Perencanaan Pondok Pesantren Abdul Djamil - Nahdlatul Ulama Purwokerto",
         place: "Banyumas, Jawa Tengah",
         },
         {
-        img: "/p/registrasi.png",
+        img: "https://i.ibb.co/zF0CwX6/registrasi.png",
         year: "2021",
         title: "Perencanaan Gedung Registrasi - Unsoed",
         place: "Purwokerto, Banyumas, Jawa Tengah",
         },
         {
-        img: "/p/rsi.png",
+        img: "https://i.ibb.co/t2cWzBd/rsi.png",
         year: "2021",
         title: "Perencanaan Pelayanan Kesehatan - Rumah Sakit Islam Purwokerto",
         place: "Purwokerto, Banyumas, Jawa Tengah",
         },
         {
-        img: "/p/fpik.png",
+        img: "https://i.ibb.co/cFFnHFG/fpik.png",
         year: "2021",
         title: "Perencanaan Masterplan - Fakultas Perikanan dan Ilmu Kelautan Unsoed",
         place: "Cilacap, Jawa Tengah",
         },
         {
-        img: "/p/landscape.png",
+        img: "https://i.ibb.co/VmNDkdG/landscape.png",
         year: "2021",
         title: "Perencanaan Pra Desain Landscape Area Pabrik - PT. CPI",
         place: "Purbalingga, Jawa Tengah",
         },
         {
-        img: "/p/polsek.png",
+        img: "https://i.ibb.co/fYQ05QW/polsek.png",
         year: "2022",
         title: "Perencanaan Bangunan - Polsek Purwokerto Utara",
         place: "Purwokerto, Banyumas, Jawa Tengah",
         },
         {
-        img: "/p/haritanickel.png",
+        img: "https://i.ibb.co/pWRNGX0/haritanickel.png",
         year: "2022",
         title: "Perencanaan Kantor - Harita Nickel Ternate",
         place: "Ternate, Maluku Utara",
         },
         {
-        img: "/p/kedokterankalibakal.png",
+        img: "https://i.ibb.co/6Y0jjtD/kedokterankalibakal.png",
         year: "2022",
         title: "Perencanaan Pra Desain - Fakultas Kedokteran Unsoed Kampus Kalibakal",
         place: "Kalibakal, Purwokerto",
         },
         {
-        img: "/p/kedokterancilacap.png",
+        img: "https://i.ibb.co/BnWbYzy/kedokterancilacap.png",
         year: "2022",
         title: "Perencanaan Pra Desain - Fakultas Kedokteran Unsoed Kampus Cilacap",
         place: "Cilacap, Jawa Tengah",
         },
         {
-        img: "/p/hibualamo.png",
+        img: "https://i.ibb.co/h8XSDMr/hibualamo.png",
         year: "2022",
         title: "Perencanaan Gedung Serbaguna - Hibualamo",
         place: "Pulau Obi, Maluku Utara",
         },
         {
-        img: "/p/mipa.png",
+        img: "https://i.ibb.co/0M200vn/mipa.png",
         year: "2022",
         title: "Perencanaan Gedung - FMIPA Unsoed",
         place: "Grendeng, Purwokerto",
         },
         {
-        img: "/p/fapet.png",
+        img: "https://i.ibb.co/WB9tmWJ/fapet.png",
         year: "2022",
         title: "Perencanaan Gedung - Fakultas Peternakan Unsoed",
         place: "Grendeng, Purwokerto",
         },
         {
-        img: "/p/fib.png",
+        img: "https://i.ibb.co/8YsF7zQ/fib.png",
         year: "2022",
         title: "Perencanaan Masterplan - FIB Unsoed",
         place: "Grendeng, Purwokerto",
         },
         {
-        img: "/p/sindoro.png",
+        img: "https://i.ibb.co/kmRx2YX/sindoro.png",
         year: "2022",
         title: "Perencanaan Pengembangan Pos Pengamatan G. Sindoro Sumbing - PVMBG, Badan Geologi, Kementrian ESDM",
         place: "Temanggung, Jawa Tengah",
         },
         {
-        img: "/p/pulauobi.png",
+        img: "https://i.ibb.co/0sqnfst/pulauobi.png",
         year: "2023",
         title: "Perencanaan Kawasan Eco Village - Harita Nickel Pulau Obi",
         place: "Pulau Obi, Maluku Utara",
@@ -152,7 +152,7 @@ const Portofolio = () => {
             {cards.slice(0, visible).map((card, index) => (
                 <div key={index} className="lg:w-1/4 md:w-1/2 p-4 w-full border-b">
                 <a className="block relative h-48 rounded overflow-hidden">
-                    <Image
+                    <img
                     width={421}
                     height={261}
                     alt="ecommerce"
@@ -179,8 +179,8 @@ const Portofolio = () => {
                 className="inline-flex items-center group py-2 px-4 text-zinc-600 transition duration-700 hover:text-black border hover:border-black hover:bg-zinc-100 rounded-lg"
                 >
                 Lihat Lebih Banyak
-                <Image
-                    src="/unduh-black-thick.png"
+                <img
+                    src="https://i.ibb.co/c2qw3QD/unduh-black-thick.png"
                     width={18}
                     height={18}
                     alt=""
